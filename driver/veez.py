@@ -38,4 +38,4 @@ if not STRING5:
     ASS_CLI_5 = None
 else:
     ASS_CLI_5 = Client(api_id=API_ID, api_hash=API_HASH, session_name=STRING5, plugins=dict(root="AvengerMusic.Plugins.Multi-Assistant"))
-call_py = PyTgCalls(user, overload_quiet_mode=True)
+
