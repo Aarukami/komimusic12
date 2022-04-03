@@ -2,7 +2,7 @@ import asyncio
 from pytgcalls import idle
 from driver.veez import call_py, STRING5, STRING4, STRING3, STRING2, STRING1
 async def start_bot():
- if STRING1 != "None":
+    if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
         await pytgcalls2.start()
@@ -12,7 +12,7 @@ async def start_bot():
         await pytgcalls4.start()
     if STRING5 != "None":
         await pytgcalls5.start()
-    await idle()
+        await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
 
